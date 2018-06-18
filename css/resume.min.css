@@ -27,7 +27,6 @@ h6 {
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
-    color:#396889;
 }
 
 h2 {
@@ -140,19 +139,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #424242 !important;
+  background-color: #0D56A6 !important;
 }
 
 .text-primary {
-  color:  #1e9d9c !important;
+  color:  #FFB800 !important;
 }
 
 a {
-  color:  #1e9d9c;
+  color:  #FFB800;
 }
 
 a:hover, a:focus, a:active {
-  color:  #1e9d9c;
+  color:  #FF7400;
 }
 
  
