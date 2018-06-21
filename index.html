@@ -169,8 +169,38 @@ body, html {
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="企業介紹">
         <div class="my-auto">
           <h2 class="mb-5"><span class="text-primary">企業介紹</span></h2>
-       <h3>藝文與影音傳播類</h3>
-	<!-- Boxes -->
+		
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+    background-color: #eee;
+    color:#FF9339;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #FFAA63; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+<button class="accordion">藝文與影音傳播類</button>
+<div class="panel">
+ <!-- Boxes -->
 	<div class="thumbnails">
 	<div class="box">
 	<a href="http://www.settv.com.tw/#!/" class="image fit"><img src="https://i.imgur.com/Nm8o9G8.png" width="200" height="200" /></a>
@@ -197,6 +227,65 @@ body, html {
 	<a href="https://www.chocotv.com.tw/drama" class="button fit" data-poptrox="youtube,800x400">more</a>
         </div>
         </div>
+</div>
+
+<button class="accordion">資訊科技類</button>
+<div class="panel">
+  <!-- Boxes -->
+	<div class="thumbnails">
+	<div class="box">
+	<a href="https://www.asus.com/tw/" class="image fit"><img src="https://i.imgur.com/oAzs1bg.jpg" width="200" height="200" /></a>
+	<div class="inner">
+	<h3>華碩電腦股份有限公司</h3>
+	<p>華碩電腦股份有限公司是一家總部設於臺北市北投區的跨國硬體及電子元件公司。華碩其產品包括家用與商務用桌上型電腦、筆記型電腦、行動電話、網路裝置、顯示器、投影機、主機板、顯示卡、光儲存、多媒體產品、外圍裝置、可穿戴裝置、伺服器、工作站、和平板電腦。該公司也是一家OEM製造商。</p>
+	<a href="https://www.asus.com/tw/" class="button fit" data-poptrox="youtube,800x400">more</a>
+        </div>
+        </div>
+	<div class="box">
+	<a href="https://www.htc.com/tw/" class="image fit"><img src="https://i.imgur.com/NsIiq7K.jpg" width="200" height="200" /></a>
+	<div class="inner">
+	<h3>宏達國際電子</h3>
+	<p>宏達國際電子股份有限公司，簡稱宏達電或HTC，為中華民國（臺灣）的跨國消費性電子產品公司，總部位於新北市新店區。成立於1997年，目前以研發與製造智慧型手機為主要業務。</p>
+	<a href="https://www.htc.com/tw/" class="button fit" data-poptrox="youtube,800x400">more</a>
+        </div>
+        </div>
+		
+<div class="box">
+	<a href="https://www.chocotv.com.tw/drama" class="image fit"><img src="http://i.imgur.com/WvMTmBE.jpg" width="200" height="200" /></a>
+	<div class="inner">
+	<h3>CHOCO TV</h3>
+	<p>CHOCO TV 追劇瘋 是巧克科技新媒體有限公司（CHOCOLABS）旗下台灣原生行動串流影音平台，2015年起與海外各大電視台與製作公司合作，2016年起投入自製內容。</p>
+	<a href="https://www.chocotv.com.tw/drama" class="button fit" data-poptrox="youtube,800x400">more</a>
+        </div>
+        </div>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+</body>
+		
+       <h3>藝文與影音傳播類</h3>
+	
 
 							
 				</div>
