@@ -177,7 +177,7 @@ a:hover, a:focus, a:active {
 .timeline-block {
     padding: 10px 30px;
     position: relative;
-    background-color: #ddefdc;
+    background-color: ##ffaa63;
     width: 50%;
     border-style:outset;
 }
@@ -189,7 +189,7 @@ a:hover, a:focus, a:active {
     width: 40px;
     height: 40px;
     right: -20px;
-    background-color: #455065;
+    background-color: #ff9339;
     border: 3px solid inherit;
     top: 15px;
     border-radius: 50%;
