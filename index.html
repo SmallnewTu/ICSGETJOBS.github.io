@@ -342,7 +342,40 @@ for (i = 0; i < acc.length; i++) {
           <h2 class="mb-5"><span class="text-primary">履歷專區</span></h2>
           <div id="accordion">
             <div class="card">
-   
+   <div class="content row">
+    <div class="inside-container">
+        <nav class="breadcrumb"><span>目前位置：</span><a class="breadcrumb-item" href="/ibonhome">首頁</a><a class="breadcrumb-item" href="/ibonprinter">雲端列印</a><a class="breadcrumb-item active breadcrumb-item" href="/ibonprinter">ibon列印</a></nav>
+        <app>
+                <div class="modal show" id="loading" role="dialog" aria-labelledby="loading" style="display: block;">
+                    <div class="modal-dialog">
+                        <div class="loading">
+                            <img src="https://extrablobs.blob.core.windows.net/editor/images/loading_icon_xl.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-backdrop show editor_bg"></div>
+
+        </app>
+    </div>
+</div>
+
+
+<!-- 會員購物需知條款 -->
+
+<div class="modal" id="clauseModal" role="dialog" aria-labelledby="clauseModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="font-34">檔案上傳及下載申請同意書</h2>
+            </div>
+
+            <div class="btn-box">
+                <button type="button" id="btnclause" class="btn btn-green1" onclick="window.swal.close();">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+
         </div>
       </section>
 		 <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="登入">
