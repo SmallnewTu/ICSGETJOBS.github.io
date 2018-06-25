@@ -166,7 +166,7 @@ a:hover, a:focus, a:active {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #424242;
+    background-color: #ffaa63;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -177,7 +177,7 @@ a:hover, a:focus, a:active {
 .timeline-block {
     padding: 10px 30px;
     position: relative;
-    background-color: ##ffaa63;
+    background-color: #ffaa63;
     width: 50%;
     border-style:outset;
 }
