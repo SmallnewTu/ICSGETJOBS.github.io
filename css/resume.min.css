@@ -26,7 +26,9 @@ h6 {
 }
 h1 {
   font-size: 3.1rem;
-  line-height: 30rem;
+   padding-top: 10px;
+  padding-left: 10px;
+  padding-right:10px;
 }
 
 h2 {
